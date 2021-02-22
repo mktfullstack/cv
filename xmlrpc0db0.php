@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://themes.pixelwars.org/ikonik/demo-03</homePageLink>
+		<homePageLink>https://themes.pixelwars.org/ikonik/demo-01</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://themes.pixelwars.org/ikonik/demo-03/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-03/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-03/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-03/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-03/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://themes.pixelwars.org/ikonik/demo-01/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-01/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-01/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-01/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://themes.pixelwars.org/ikonik/demo-01/wp-json/" />
 			</apis>
 	</service>
 </rsd>
