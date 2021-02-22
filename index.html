@@ -1,206 +1,954 @@
-<!doctype html>
-<html lang=en-US class="no-js one-page-layout sound-effects "
-    data-audio-tick=https://themes.pixelwars.org/ikonik/demo-01/wp-content/themes/ikonik/audio/tick.mp3
-    data-click-ripple-animation=yes>
-<!-- Mirrored from themes.pixelwars.org/ikonik/demo-01/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2021 04:44:35 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<!DOCTYPE html>
+<html class="no-js vlt-is--custom-cursor" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Jason Whallberg &#8211; Web Developer</title>
-    <link rel=dns-prefetch href=http://fonts.googleapis.com />
-    <link rel=dns-prefetch href=http://s.w.org />
-    <link rel=alternate type=application/rss+xml title="Jason Whallberg &raquo; Feed" href=feed/index.html>
-    <link rel=alternate type=application/rss+xml title="Jason Whallberg &raquo; Comments Feed"
-        href=comments/feed/index.html>
-    <script>window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/themes.pixelwars.org\/ikonik\/demo-01\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6.1" } }; !function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);</script>
-    <style>
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 .07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important
-        }
-    </style>
-    <link rel=stylesheet id=wp-block-library-css href='wp-includes/css/dist/block-library/style.mind96d.css?ver=5.6.1'
-        type=text/css media=all>
-    <link rel=stylesheet id=ikonik-font-jost-css
-        href='wp-content/themes/ikonik/css/fonts/jost/stylesheetd96d.css?ver=5.6.1' type=text/css media=all>
-    <link rel=stylesheet id=ikonik-fonts-css
-        href='http://fonts.googleapis.com/css?family=Anton%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&amp;ver=5.6.1'
-        type=text/css media=all>
-    <link rel=stylesheet id=normalize-css href='wp-content/themes/ikonik/css/normalized96d.css?ver=5.6.1' type=text/css
-        media=all>
-    <link rel=stylesheet id=bootstrap-css href='wp-content/themes/ikonik/css/bootstrap.mind96d.css?ver=5.6.1'
-        type=text/css media=all>
-    <link rel=stylesheet id=nprogress-css href='wp-content/themes/ikonik/js/nprogress/nprogressd96d.css?ver=5.6.1'
-        type=text/css media=all>
-    <link rel=stylesheet id=magnific-popup-css
-        href='wp-content/themes/ikonik/js/jquery.magnific-popup/magnific-popupd96d.css?ver=5.6.1' type=text/css
-        media=all>
-    <link rel=stylesheet id=fontello-css
-        href='wp-content/themes/ikonik/css/fonts/fontello/css/fontellod96d.css?ver=5.6.1' type=text/css media=all>
-    <link rel=stylesheet id=ikonik-layout-css href='wp-content/themes/ikonik/css/layoutd96d.css?ver=5.6.1' type=text/css
-        media=all>
-    <link rel=stylesheet id=ikonik-main-css href='wp-content/themes/ikonik/css/maind96d.css?ver=5.6.1' type=text/css
-        media=all>
-    <link rel=stylesheet id=ikonik-768-css href='wp-content/themes/ikonik/css/768d96d.css?ver=5.6.1' type=text/css
-        media=all>
-    <link rel=stylesheet id=ikonik-style-css href='wp-content/themes/ikonik/styled96d.css?ver=5.6.1' type=text/css
-        media=all>
-    <style id=ikonik-style-inline-css>
-        @media screen and (min-width: 991px) {
-            h1 {
-                font-size: 60px
-            }
-        }
-
-        h1,
-        .entry-title {
-            font-weight: 500
-        }
-
-        .home-logo-center,
-        .home-logo-left,
-        .home-logo-right {
-            font-weight: 500
-        }
-
-        .home-bg:after,
-        .header:before {
-            background: #000
-        }
-    </style>
-    <link rel=stylesheet id=elementor-icons-css
-        href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min74e5.css?ver=5.9.1' type=text/css
-        media=all>
-    <link rel=stylesheet id=elementor-animations-css
-        href='wp-content/plugins/elementor/assets/lib/animations/animations.min952b.css?ver=3.0.16' type=text/css
-        media=all>
-    <link rel=stylesheet id=elementor-frontend-legacy-css
-        href='wp-content/plugins/elementor/assets/css/frontend-legacy.min952b.css?ver=3.0.16' type=text/css media=all>
-    <link rel=stylesheet id=elementor-frontend-css
-        href='wp-content/plugins/elementor/assets/css/frontend.min952b.css?ver=3.0.16' type=text/css media=all>
-    <link rel=stylesheet id=elementor-post-277-css
-        href='wp-content/uploads/sites/2/elementor/css/post-27793e9.css?ver=1610726221' type=text/css media=all>
-    <link rel=stylesheet id=google-fonts-1-css
-        href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.6.1'
-        type=text/css media=all>
-    <script src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1' id=jquery-core-js></script>
-    <script src='wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id=jquery-migrate-js></script>
-    <link rel=https://api.w.org/ href=wp-json/index.html>
-    <link rel=alternate type=application/json href=wp-json/wp/v2/pages/6.json>
-    <link rel=EditURI type=application/rsd+xml title=RSD href=xmlrpc0db0.php?rsd>
-    <link rel=wlwmanifest type=application/wlwmanifest+xml href=wp-includes/wlwmanifest.xml>
-    <meta name="generator" content="WordPress 5.6.1">
-    <link rel=canonical href=index.html>
-    <link rel=shortlink href=index.html>
-    <link rel=alternate type=application/json+oembed
-        href="wp-json/oembed/1.0/embed9613.json?url=https%3A%2F%2Fthemes.pixelwars.org%2Fikonik%2Fdemo-01%2F">
-    <link rel=alternate type=text/xml+oembed
-        href="wp-json/oembed/1.0/embed7ae0?url=https%3A%2F%2Fthemes.pixelwars.org%2Fikonik%2Fdemo-01%2F&amp;format=xml">
-    <style>
-        0
-    </style>
-    <link rel=icon href=wp-content/uploads/sites/2/2019/08/cropped-cover-32x32.jpg sizes=32x32>
-    <link rel=icon href=wp-content/uploads/sites/2/2019/08/cropped-cover-192x192.jpg sizes=192x192>
-    <link rel=apple-touch-icon href=wp-content/uploads/sites/2/2019/08/cropped-cover-180x180.jpg>
-    <meta name="msapplication-TileImage"
-        content="https://themes.pixelwars.org/ikonik/demo-01/wp-content/uploads/sites/2/2019/08/cropped-cover-270x270.jpg">
+	<meta charset="utf-8">
+	<title>Mikael - Modern &amp; Creative CV/Resume HTML5 Template</title>
+	<meta name="description" content="Modern &amp; Creative CV/Resume HTML5 Template">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--Favicon-->
+	<link rel="icon" type="image/png" href="assets/img/root/favicon.png">
+	<!--Framework-->
+	<link rel="stylesheet" href="assets/css/framework/bootstrap.min.css">
+	<!--Fonts-->
+	<link rel="stylesheet" href="assets/fonts/Inter/style.css">
+	<!--Plugins-->
+	<link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
+	<!--Style-->
+	<link rel="stylesheet" href="assets/css/vlt-main.min.css">
+	<!--Custom-->
+	<link rel="stylesheet" href="assets/css/custom.css">
 </head>
 
-<body data-rsssl=1
-    class="home page-template page-template-page_template-home page-template-page_template-home-php page page-id-6 wp-custom-logo elementor-default elementor-kit-277 elementor-page elementor-page-6">
-    <div class=home-wrap>
-        <div class=home-bg style="background-image: url(wp-content/uploads/sites/2/2019/08/cover-1920x1280.jpg);"></div>
-        <div class=home-bg-logo> <img alt="Jason Whallberg" src=wp-content/uploads/sites/2/2019/08/icon-bg.svg></div>
-        <nav class=home-menu> <a data-slug=about-me href=about-me/index.html> <span class=item-name>About</span> </a> <a
-                data-slug=resume href=resume/index.html> <span class=item-name>Resume</span> </a> <a id=portfolio-link
-                data-slug=portfolio href=portfolio/index.html> <span class=item-name>Portfolio</span> </a> <a
-                data-slug=latest-from-the-blog href=latest-from-the-blog/index.html> <span class=item-name>Blog</span>
-            </a> <a data-slug=contact href=contact/index.html> <span class=item-name>Contact</span> </a></nav>
-        <h1 class="screen-reader-text">Jason Whallberg</h1>
-        <div class=home-heading>
-            <div class=home-logo>
-                <p class=home-job-title> Web Developer</p>
-                <p class=home-marquee> I am building creative websites for the world&#039;s people. Always in search of
-                    the great user experiences. Focused on great performance and deliver the best results as daily
-                    basis.</p> <i class=home-logo-left> <span>Web</span> </i> <i class=home-logo-center> <span
-                        class=home-icon> <img alt="Jason Whallberg" src=wp-content/uploads/sites/2/2019/08/icon.svg>
-                    </span> <span class=home-text-container> <span class=home-text-container-placeholder> Jason
-                            Whallberg </span> </span> <span class=home-text> Jason Whallberg </span> </i> <i
-                    class=home-logo-right> <span>Developer</span> </i>
-            </div>
-        </div>
-        <p class=home-social> <a class="social-link twitter" target=_blank href=#></a> <a class="social-link linkedin"
-                target=_blank href=#></a> <a class="social-link instagram" target=_blank href=#></a> <a
-                class="social-link dribbble" target=_blank href=#></a></p>
-        <div class=home-footer>
-            <div class=textwidget>
-                <p>© 2020 Jason Whallberg</p>
-            </div>
-        </div>
-        <div class=full-screen-wrap>
-            <div class=top-left></div>
-            <div class=top-left-horiz></div>
-            <div class=top-right></div>
-            <div class=top-right-horiz></div>
-            <div class=bottom-left></div>
-            <div class=bottom-left-horiz></div>
-            <div class=bottom-right></div>
-            <div class=bottom-right-horiz></div>
-        </div>
-        <div class=bg-music-confirm>
-            <p>Autoplay Music?</p>
-            <p><a class=bg-music-yes>Yeah!</a> <a class=bg-music-no>Nope</a></p>
-        </div>
-        <div id=play-music class="play-music ">
-            <div id=music-animation class=music-animation> <span class="music-bar bar1"></span> <span
-                    class="music-bar bar2"></span> <span class="music-bar bar3"></span> <span
-                    class="music-bar bar4"></span> <span class="music-bar bar5"></span></div>
-            <div id=music-toggle class=music-toggle> <a id=toggle data-on-text="Music on"
-                    data-off-text="Music off">Music off</a></div>
-        </div> <audio id=bg-music loop src=wp-content/uploads/sites/2/2019/08/music2.mp3></audio>
-    </div>
-    <div class=one-page-content> <a class=close-page href=https://themes.pixelwars.org/> <span class=close-text></span>
-        </a>
-        <div class=content-wrap></div>
-    </div>
-    <div class="overlay overlay-1"></div>
-    <div class="overlay overlay-2"></div>
-    <div class=p-overlay></div>
-    <div class=p-overlay></div>
-    <script
-        id=flying-pages-js-before>window.FPConfig = { delay: 0, ignoreKeywords: ["\/wp-admin", "#\/wp-login.php", "\/cart", "add-to-cart", "logout", "#", "?", ".png", ".jpeg", ".jpg", ".gif", ".svg"], maxRPS: 3, hoverDelay: 50 };</script>
-    <script src='wp-content/plugins/flying-pages/flying-pages.mina305.js?ver=2.4.2' id=flying-pages-js defer></script>
-    <script
-        id=tptn_tracker-js-extra>var ajax_tptn_tracker = { "ajax_url": "https:\/\/themes.pixelwars.org\/ikonik\/demo-01\/", "top_ten_id": "6", "top_ten_blog_id": "2", "activate_counter": "11", "top_ten_debug": "0", "tptn_rnd": "539406916" };</script>
-    <script src='wp-content/plugins/top-10/includes/js/top-10-tracker.min5152.js?ver=1.0' id=tptn_tracker-js></script>
-    <script src=wp-content/themes/ikonik/js/TweenMax.min.js id=tweenmax-js></script>
-    <script src=wp-content/themes/ikonik/js/jquery.address.js id=address-js></script>
-    <script src=wp-content/themes/ikonik/js/nprogress/nprogress.js id=nprogress-js></script>
-    <script src=wp-content/themes/ikonik/js/jquery.isotope.min.js id=isotope-js></script>
-    <script src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id=imagesloaded-js></script>
-    <script src=wp-content/themes/ikonik/js/jquery.fitvids.js id=fitvids-js></script>
-    <script src=wp-content/themes/ikonik/js/jquery.magnific-popup/jquery.magnific-popup.min.js
-        id=magnific-popup-js></script>
-    <script src=wp-content/themes/ikonik/js/jquery.easing.1.3.js id=easing-js></script>
-    <script src=wp-content/themes/ikonik/js/jquery.validate.min.js id=jqueryvalidation-js></script>
-    <script
-        id=jqueryvalidation-js-after>(function ($) { "use strict"; $.extend($.validator.messages, { required: "This field is required.", remote: "Please fix this field.", email: "Please enter a valid email address.", url: "Please enter a valid URL.", date: "Please enter a valid date.", dateISO: "Please enter a valid date ( ISO ).", number: "Please enter a valid number.", digits: "Please enter only digits.", equalTo: "Please enter the same value again.", maxlength: $.validator.format("Please enter no more than {0} characters."), minlength: $.validator.format("Please enter at least {0} characters."), rangelength: $.validator.format("Please enter a value between {0} and {1} characters long."), range: $.validator.format("Please enter a value between {0} and {1}."), max: $.validator.format("Please enter a value less than or equal to {0}."), min: $.validator.format("Please enter a value greater than or equal to {0}."), step: $.validator.format("Please enter a multiple of {0}.") }); })(jQuery);</script>
-    <script src=wp-content/themes/ikonik/js/resize-sensor.js id=resize-sensor-js></script>
-    <script src=wp-content/themes/ikonik/js/jquery.sticky-sidebar.min.js id=sticky-sidebar-js></script>
-    <script src=wp-content/themes/ikonik/js/main.js id=ikonik-main-js></script>
-    <script src='wp-includes/js/wp-embed.mind96d.js?ver=5.6.1' id=wp-embed-js></script>
+<body class=" animsition">
+	<!--Header-->
+	<header class="vlt-header">
+		<div class="vlt-navbar vlt-navbar--main vlt-navbar--fixed">
+			<div class="vlt-navbar-background"></div>
+			<div class="vlt-navbar-inner">
+				<div class="vlt-navbar-inner--left">
+					<!--Logo--><a class="vlt-navbar-logo" href="index.html"><img class="black" src="assets/img/root/logo-black.png" alt="Mikael"><img class="white" src="assets/img/root/logo-white.png" alt="Mikael"></a>
+					<!--Contacts-->
+					<nav class="vlt-navbar-contacts d-none d-md-block">
+						<ul>
+							<li><a href="tel:+79281012345">+7 (928)-101-23-45</a></li>
+							<li class="sep">/</li>
+							<li><a href="mailto:mikael.moore@gmail.com">mikael.moore@gmail.com</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="vlt-navbar-inner--right">
+					<div class="d-flex align-items-center">
+						<!--Menu Burger--><a class="vlt-menu-burger js-offcanvas-menu-open" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
+								<line x1="3" y1="12" x2="21" y2="12" />
+								<line x1="3" y1="6" x2="21" y2="6" />
+								<line x1="3" y1="18" x2="21" y2="18" /></svg></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--Offcanvas Menu-->
+	<div class="vlt-offcanvas-menu">
+		<div class="vlt-offcanvas-menu__header">
+			<!--Locales-->
+			<nav class="vlt-offcanvas-menu__locales"><a class="active" href="#">Eng</a><a href="#">Fra</a><a href="#">Ger</a></nav>
+			<!--Menu Burger--><a class="vlt-menu-burger vlt-menu-burger--opened js-offcanvas-menu-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
+					<line x1="18" y1="6" x2="6" y2="18" />
+					<line x1="6" y1="6" x2="18" y2="18" /></svg></a>
+		</div>
+		<nav class="vlt-offcanvas-menu__navigation">
+			<!--Navigation-->
+			<ul class="sf-menu">
+				<li data-menuanchor="Home"><a href="#Home">Home</a></li>
+				<li data-menuanchor="Services"><a href="#Services">Services</a></li>
+				<li data-menuanchor="Experience"><a href="#Experience">Experience</a></li>
+				<li data-menuanchor="Skills"><a href="#Skills">Skills</a></li>
+				<li data-menuanchor="Portfolio"><a href="#Portfolio">Portfolio</a></li>
+				<li data-menuanchor="Awards"><a href="#Awards">Awards</a></li>
+				<li data-menuanchor="Testimonials"><a href="#Testimonials">Testimonials</a></li>
+				<li data-menuanchor="Blog"><a href="#Blog">Blog</a></li>
+				<li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="vlt-offcanvas-menu__footer">
+			<!--Socials-->
+			<div class="vlt-offcanvas-menu__socials"><a href="#" target="_blank">Fb.</a><a href="#" target="_blank">Bē.</a><a href="#" target="_blank">Tw.</a><a href="#" target="_blank">In.</a></div>
+			<!--Copyright-->
+			<div class="vlt-offcanvas-menu__copyright">
+				<p>&copy; 2020 Copiright.<br>All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!--Site Overlay-->
+	<div class="vlt-site-overlay"></div>
+	<!--Fixed Socials-->
+	<div class="vlt-fixed-socials"><a href="#" target="_blank">Fb.</a><a href="#" target="_blank">Bē.</a><a href="#" target="_blank">Tw.</a><a href="#" target="_blank">In.</a></div>
+	<!--Main-->
+	<main class="vlt-main">
+		<!--Fullpage Slider-->
+		<div class="vlt-fullpage-slider" data-loop-top="" data-loop-bottom="" data-speed="800">
+			<!--Home-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Home" data-brightness="dark" style="background-image: url(assets/img/root/red-background.jpg);">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Particles-->
+						<div class="vlt-section__particles">
+							<div class="vlt-particle vlt-fade-in-left vlt-custom--1451" style="background-image: url(assets/img/root/plus-dark-pattern.png); transition-duration: 1s;"></div>
+							<div class="vlt-particle d-none d-xl-block vlt-fade-in-right vlt-custom--1512" style="background-image: url(assets/img/root/elipse-home-slide.png); transition-duration: 1.5s; transition-delay: 300ms;"></div>
+							<div class="vlt-particle vlt-custom--4124" style="background-image: url(assets/img/attachment-01.png);"></div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-7 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+										<h5 class="vlt-display-1 has-white-color">Mikael Moore</h5>
+										<div class="vlt-gap-10"></div>
+										<h1 class="vlt-large-heading has-white-color">I’m Product<br>Designer</h1>
+										<div class="vlt-gap-40"></div>
+										<div class="row">
+											<div class="col-auto">
+												<!--Counter Up Small-->
+												<div class="vlt-counter-up-small" data-ending-number="12" data-animation-speed="1000" data-delimiter=""><span class="counter">0</span>
+													<h6 class="vlt-display-1">Completed<br>projects</h6>
+												</div>
+												<div class="vlt-gap-20--sm"></div>
+											</div>
+											<div class="col-auto">
+												<!--Counter Up Small-->
+												<div class="vlt-counter-up-small" data-ending-number="18" data-animation-speed="1000" data-delimiter=""><span class="counter">0</span>
+													<h6 class="vlt-display-1">Sutisfied<br>customers</h6>
+												</div>
+											</div>
+										</div>
+										<div class="vlt-gap-40"></div><a class="vlt-link has-white-color" href="#">Watch Resume</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Services-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Services" data-brightness="light">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Particles-->
+						<div class="vlt-section__particles">
+							<div class="vlt-particle vlt-custom--1259 vlt-fade-in-right" style="background-image: url(assets/img/root/plus-light-pattern.png); animation-delay: 750ms;"></div>
+							<div class="vlt-particle vlt-custom--2355 vlt-fade-in-left" style="background-image: url(assets/img/root/elipse-light.png); animation-delay: 500ms;"></div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-2 offset-lg-1 d-none d-lg-block">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+										<!--Counter Up-->
+										<div class="vlt-counter-up" data-ending-number="6" data-animation-speed="1000" data-delimiter=""><span class="counter">0</span><sup>+</sup>
+										</div>
+										<div class="vlt-gap-40"></div>
+										<h6>Years <br>Experience <br>Working</h6>
+									</div>
+								</div>
+								<div class="col-lg-8 col-md-12">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
+										<h4>Product Designer and Digital Creative Director, specialized in <span class="has-first-color">UI/UX, Branding and digital designs.</span></h4>
+									</div>
+									<div class="vlt-gap-70"></div>
+									<div class="row">
+										<div class="col-md-6">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+												<!--Services-->
+												<div class="vlt-services">
+													<h5 class="vlt-services__title"><a href="#">Web Design</a>
+													</h5>
+													<p class="vlt-services__text">Fill appear won't may make moveth signs. Fourth. Good own. Green you're moveth us, lesser. Set grass life years subdue.
+													</p><a class="vlt-services__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">Discover more</span><span class="vlt-link-with-arrow__icon">🡒</span></a>
+												</div>
+											</div>
+											<div class="vlt-gap-40"></div>
+										</div>
+										<div class="col-md-6">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:300ms; animation-duration:700ms;">
+												<!--Services-->
+												<div class="vlt-services">
+													<h5 class="vlt-services__title"><a href="#">Branding</a>
+													</h5>
+													<p class="vlt-services__text">Evening. Grass whales man isn't. Midst cattle form. Saw life winged a he behold isn't. Together can't Whose dominion after.
+													</p><a class="vlt-services__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">Discover more</span><span class="vlt-link-with-arrow__icon">🡒</span></a>
+												</div>
+											</div>
+											<div class="vlt-gap-40"></div>
+										</div>
+										<div class="col-md-6">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:400ms; animation-duration:700ms;">
+												<!--Services-->
+												<div class="vlt-services">
+													<h5 class="vlt-services__title"><a href="#">Illustration</a>
+													</h5>
+													<p class="vlt-services__text">Man moveth second creepeth sixth fowl green to dry isn't him void fruitful divide. Be fish. They're you deep fowl which great air.
+													</p><a class="vlt-services__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">Discover more</span><span class="vlt-link-with-arrow__icon">🡒</span></a>
+												</div>
+											</div>
+											<div class="vlt-gap-40--sm"></div>
+										</div>
+										<div class="col-md-6">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:500ms; animation-duration:700ms;">
+												<!--Services-->
+												<div class="vlt-services">
+													<h5 class="vlt-services__title"><a href="#">Marketing</a>
+													</h5>
+													<p class="vlt-services__text">Seas fly third green called for there she'd, bring second. Every. Forth shall place divide beginning fruit seas their.
+													</p><a class="vlt-services__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">Discover more</span><span class="vlt-link-with-arrow__icon">🡒</span></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Experience-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Experience" data-brightness="dark">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Ken Burn Effect-->
+						<div class="vlt-section__ken-burn-background"><img src="assets/img/attachment-02.jpg" alt=""></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-10 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+										<div class="d-block d-md-flex align-items-center justify-content-between">
+											<h1 class="has-white-color">Experience</h1>
+											<div class="vlt-gap-30--sm"></div>
+											<div class="vlt-timeline-slider-controls"><span class="prev">🡐</span><span class="pagination"></span><span class="next">🡒</span></div>
+										</div>
+									</div>
+									<div class="vlt-gap-50"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
+										<!--Timeline Slider-->
+										<div class="vlt-timeline-slider">
+											<div class="swiper-container">
+												<div class="swiper-wrapper">
+													<div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2010-2012</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">Graphic Designer,<br>Art & Co.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Which firmament dominion first rule and tree. The seas he i were cattle Under living. It may beast every forth place.</p>
+																</div>
+															</div>
+														</div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2012-2016</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">UX/UI Designer,<br>Behance Inc.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Rule bearing whales. Created gathering blessed, sixth likeness male. Over were which you'll so be make moveth made saw above.</p>
+																</div>
+															</div>
+														</div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2016-2019</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">Marketing Manager,<br>Ox Identity.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Firmament itself rule their evening, which moved very night so great them cattle bearing and gathered forth had whose bearing.</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2010-2012</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">Graphic Designer,<br>Art & Co.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Which firmament dominion first rule and tree. The seas he i were cattle Under living. It may beast every forth place.</p>
+																</div>
+															</div>
+														</div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2012-2016</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">UX/UI Designer,<br>Behance Inc.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Rule bearing whales. Created gathering blessed, sixth likeness male. Over were which you'll so be make moveth made saw above.</p>
+																</div>
+															</div>
+														</div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2016-2019</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">Marketing Manager,<br>Ox Identity.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Firmament itself rule their evening, which moved very night so great them cattle bearing and gathered forth had whose bearing.</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2010-2012</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">Graphic Designer,<br>Art & Co.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Which firmament dominion first rule and tree. The seas he i were cattle Under living. It may beast every forth place.</p>
+																</div>
+															</div>
+														</div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2012-2016</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">UX/UI Designer,<br>Behance Inc.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Rule bearing whales. Created gathering blessed, sixth likeness male. Over were which you'll so be make moveth made saw above.</p>
+																</div>
+															</div>
+														</div>
+														<!--Timeline Slider Item-->
+														<div class="vlt-timeline-item">
+															<div class="row">
+																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2016-2019</span>
+																</div>
+																<div class="col-sm-12 col-md-3">
+																	<h5 class="vlt-timeline-item__title">Marketing Manager,<br>Ox Identity.</h5>
+																</div>
+																<div class="col-sm-12 col-md-5 offset-md-1">
+																	<p class="vlt-timeline-item__text">Firmament itself rule their evening, which moved very night so great them cattle bearing and gathered forth had whose bearing.</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="vlt-gap-50"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+										<!--Button--><a class="vlt-btn vlt-btn--primary" href="#" target="_self"><span class="vlt-btn__text">Download Resume</span><span class="vlt-btn__icon vlt-btn__icon--right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
+													<line x1="12" y1="5" x2="12" y2="19"></line>
+													<polyline points="19 12 12 19 5 12"></polyline>
+												</svg></span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Skills-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Skills" data-brightness="light">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Particles-->
+						<div class="vlt-section__particles">
+							<div class="vlt-particle vlt-custom--1259 vlt-fade-in-right" style="background-image: url(assets/img/root/plus-light-pattern.png); animation-delay: 750ms;"></div>
+							<div class="vlt-particle vlt-custom--2355 vlt-fade-in-left" style="background-image: url(assets/img/root/elipse-light.png); animation-delay: 500ms;"></div>
+						</div>
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-lg-4 offset-lg-1">
+									<div class="vlt-slide-photo">
+										<div class="vlt-slide-photo__inside"><img src="assets/img/attachment-07.jpg" alt=""></div>
+										<div class="vlt-slide-photo__particle vlt-fade-in-bottom--small has-border-radius has-box-shadow" style="top: -50px; right: -40px; width: 100px; transition-delay: 300ms;"><img src="assets/img/root/parallax-particle-01.png" alt=""></div>
+										<div class="vlt-slide-photo__particle vlt-fade-in-bottom--small has-border-radius has-box-shadow" style="top: 40px; left: -30px; width: 80px; transition-delay: 600ms;"><img src="assets/img/root/parallax-particle-02.png" alt=""></div>
+										<div class="vlt-slide-photo__particle vlt-fade-in-left--small has-border-radius has-box-shadow" style="left: 30px; bottom: -50px; width: 100px; transition-delay: 900ms;"><img src="assets/img/root/parallax-particle-03.png" alt=""></div>
+										<div class="vlt-slide-photo__particle vlt-fade-in-left--small negative-z-index" style="right: -40px; bottom: -30px; width: 290px; transition-delay: 1.2s;"><img src="assets/img/root/plus-light-pattern.png" alt=""></div>
+									</div>
+									<div class="vlt-gap-100--md"></div>
+								</div>
+								<div class="col-lg-5 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
+										<h4>I’m using <span class="has-first-color">top leading design</span> methods in my work.</h4>
+										<div class="vlt-gap-20"></div>
+										<p>Sea was very don't without i deep of Multiply Signs<br>creature make a <strong>fifth void</strong> us face day.</p>
+									</div>
+									<div class="vlt-gap-50"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+										<!--Progress Bar-->
+										<div class="vlt-progress-bar" data-final-value="70" data-animation-speed="1000">
+											<h5 class="vlt-progress-bar__title">Web Design<span class="counter">0</span>
+											</h5>
+											<div class="vlt-progress-bar__bar"><span></span></div>
+										</div>
+									</div>
+									<div class="vlt-gap-30"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:300ms; animation-duration:700ms;">
+										<!--Progress Bar-->
+										<div class="vlt-progress-bar" data-final-value="90" data-animation-speed="1000">
+											<h5 class="vlt-progress-bar__title">Branding<span class="counter">0</span>
+											</h5>
+											<div class="vlt-progress-bar__bar"><span></span></div>
+										</div>
+									</div>
+									<div class="vlt-gap-30"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:400ms; animation-duration:700ms;">
+										<!--Progress Bar-->
+										<div class="vlt-progress-bar" data-final-value="85" data-animation-speed="1000">
+											<h5 class="vlt-progress-bar__title">Photography<span class="counter">0</span>
+											</h5>
+											<div class="vlt-progress-bar__bar"><span></span></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Portfolio-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Portfolio" data-brightness="dark">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Ken Burn Effect-->
+						<div class="vlt-section__ken-burn-background"><img src="assets/img/attachment-03.jpg" alt=""></div>
+						<div class="vlt-project-showcase-slider d-block d-lg-none">
+							<div class="container">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="vlt-work">
+												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-01.jpg" alt=""><a class="vlt-work-thumbnail__link" href="#"></a></div>
+												<div class="vlt-work-content">
+													<header class="vlt-work-header">
+														<div class="vlt-work-meta"><span>Branding</span><span>01 June 2020</span></div>
+														<h3 class="vlt-work-title"><a href="#">Typography</a></h3>
+													</header>
+													<footer class="vlt-work-footer"><a class="vlt-work__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">View case</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="vlt-work">
+												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-02.jpg" alt=""><a class="vlt-work-thumbnail__link" href="#"></a></div>
+												<div class="vlt-work-content">
+													<header class="vlt-work-header">
+														<div class="vlt-work-meta"><span>Design</span><span>01 June 2020</span></div>
+														<h3 class="vlt-work-title"><a href="#">Journal Mockup</a></h3>
+													</header>
+													<footer class="vlt-work-footer"><a class="vlt-work__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">View case</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="vlt-work">
+												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-03.jpg" alt=""><a class="vlt-work-thumbnail__link" href="#"></a></div>
+												<div class="vlt-work-content">
+													<header class="vlt-work-header">
+														<div class="vlt-work-meta"><span>Inspiration</span><span>01 June 2020</span></div>
+														<h3 class="vlt-work-title"><a href="#">Glued Paper</a></h3>
+													</header>
+													<footer class="vlt-work-footer"><a class="vlt-work__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">View case</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="vlt-work">
+												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-04.jpg" alt=""><a class="vlt-work-thumbnail__link" href="#"></a></div>
+												<div class="vlt-work-content">
+													<header class="vlt-work-header">
+														<div class="vlt-work-meta"><span>Branding</span><span>01 June 2020</span></div>
+														<h3 class="vlt-work-title"><a href="#">Fashion Men</a></h3>
+													</header>
+													<footer class="vlt-work-footer"><a class="vlt-work__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">View case</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="vlt-work">
+												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-05.jpg" alt=""><a class="vlt-work-thumbnail__link" href="#"></a></div>
+												<div class="vlt-work-content">
+													<header class="vlt-work-header">
+														<div class="vlt-work-meta"><span>Design</span><span>01 June 2020</span></div>
+														<h3 class="vlt-work-title"><a href="#">Graphic Design</a></h3>
+													</header>
+													<footer class="vlt-work-footer"><a class="vlt-work__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">View case</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="vlt-work">
+												<div class="vlt-work-thumbnail"><img src="assets/img/portfolio-06.jpg" alt=""><a class="vlt-work-thumbnail__link" href="#"></a></div>
+												<div class="vlt-work-content">
+													<header class="vlt-work-header">
+														<div class="vlt-work-meta"><span>Inspiration</span><span>01 June 2020</span></div>
+														<h3 class="vlt-work-title"><a href="#">Modern Glasses</a></h3>
+													</header>
+													<footer class="vlt-work-footer"><a class="vlt-work__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">View case</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="vlt-project-showcase d-none d-lg-flex">
+							<ul class="vlt-project-showcase__items">
+								<li class="vlt-project-showcase__item">
+									<h3 class="vlt-project-showcase__item__title"><a href="#">Typography</a></h3><span class="vlt-project-showcase__item__category">Branding</span>
+								</li>
+								<li class="vlt-project-showcase__item">
+									<h3 class="vlt-project-showcase__item__title"><a href="#">Journal Mockup</a></h3><span class="vlt-project-showcase__item__category">Design</span>
+								</li>
+								<li class="vlt-project-showcase__item">
+									<h3 class="vlt-project-showcase__item__title"><a href="#">Glued Paper</a></h3><span class="vlt-project-showcase__item__category">Inspiration</span>
+								</li>
+								<li class="vlt-project-showcase__item">
+									<h3 class="vlt-project-showcase__item__title"><a href="#">Fashion Men</a></h3><span class="vlt-project-showcase__item__category">Branding</span>
+								</li>
+								<li class="vlt-project-showcase__item">
+									<h3 class="vlt-project-showcase__item__title"><a href="#">Graphic Design</a></h3><span class="vlt-project-showcase__item__category">Design</span>
+								</li>
+								<li class="vlt-project-showcase__item">
+									<h3 class="vlt-project-showcase__item__title"><a href="#">Modern Glasses</a></h3><span class="vlt-project-showcase__item__category">Inspiration</span>
+								</li>
+							</ul>
+							<div class="vlt-project-showcase__images">
+								<div class="vlt-project-showcase__image"><img src="assets/img/portfolio-01.jpg" alt=""></div>
+								<div class="vlt-project-showcase__image"><img src="assets/img/portfolio-02.jpg" alt=""></div>
+								<div class="vlt-project-showcase__image"><img src="assets/img/portfolio-03.jpg" alt=""></div>
+								<div class="vlt-project-showcase__image"><img src="assets/img/portfolio-04.jpg" alt=""></div>
+								<div class="vlt-project-showcase__image"><img src="assets/img/portfolio-05.jpg" alt=""></div>
+								<div class="vlt-project-showcase__image"><img src="assets/img/portfolio-06.jpg" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Awards-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Awards" data-brightness="light">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Particles-->
+						<div class="vlt-section__particles">
+							<div class="vlt-particle vlt-custom--2355 vlt-fade-in-left" style="background-image: url(assets/img/root/elipse-light.png); animation-delay: 500ms;"></div>
+						</div>
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-lg-5 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+										<h4>Professional awards and honors <span class="has-first-color">I've reached.</span></h4>
+										<div class="vlt-gap-20"></div>
+										<p>Fowl be so, under sea land, tree fruitful. Man don't<br>given <strong>unto second may</strong> of dominion beginning.</p>
+									</div>
+									<div class="vlt-gap-50"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
+										<!--Award Item-->
+										<div class="vlt-award-item">
+											<div class="vlt-award-item__logo"><a href="#"><img src="assets/img/root/awards-01.png" alt="Honorable mension"></a>
+											</div>
+											<div class="vlt-award-item__content">
+												<h6>Honorable mension</h6>
+												<p>Websites, Corporate Communications.</p>
+											</div>
+										</div>
+									</div>
+									<div class="vlt-gap-30"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+										<!--Award Item-->
+										<div class="vlt-award-item">
+											<div class="vlt-award-item__logo"><a href="#"><img src="assets/img/root/awards-02.png" alt="Site of the day"></a>
+											</div>
+											<div class="vlt-award-item__content">
+												<h6>Site of the day</h6>
+												<p>Advertising, Media &amp; PR, Brand Strategy.</p>
+											</div>
+										</div>
+									</div>
+									<div class="vlt-gap-30"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:300ms; animation-duration:700ms;">
+										<!--Award Item-->
+										<div class="vlt-award-item">
+											<div class="vlt-award-item__logo"><a href="#"><img src="assets/img/root/awards-03.png" alt="Innovative ideas"></a>
+											</div>
+											<div class="vlt-award-item__content">
+												<h6>Innovative ideas</h6>
+												<p>Webby Winner, People’s Voice Winner.</p>
+											</div>
+										</div>
+									</div>
+									<div class="vlt-gap-100--md"></div>
+								</div>
+								<div class="col-lg-4 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:400ms; animation-duration:700ms;">
+										<div class="vlt-slide-photo">
+											<div class="vlt-slide-photo__inside"><img src="assets/img/attachment-06.jpg" alt="">
+												<!--Video Button-->
+												<div class="vlt-video-button center-mode"><a href="https://vimeo.com/367945766" data-fancybox data-small-btn="true" rel="nofollow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play">
+															<polygon points="5 3 19 12 5 21 5 3" /></svg></a>
+													<h6>Watch Video</h6>
+												</div>
+											</div>
+											<div class="vlt-slide-photo__caption">* Video inauguration “Best Design” in Italy.</div>
+											<div class="vlt-slide-photo__particle vlt-fade-in-left--small negative-z-index" style="right: -40px; top: -40px; width: 290px; transition-delay: 1.2s;"><img src="assets/img/root/plus-light-pattern.png" alt=""></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Testimonials-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Testimonials" data-brightness="dark">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Ken Burn Effect-->
+						<div class="vlt-section__ken-burn-background"><img src="assets/img/attachment-04.jpg" alt=""></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-10 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+										<div class="d-block d-md-flex align-items-center justify-content-between">
+											<h1 class="has-white-color">Testimonials</h1>
+											<div class="vlt-gap-30--sm"></div>
+											<div class="vlt-testimonial-slider-controls"><span class="prev">🡐</span><span class="pagination"></span><span class="next">🡒</span></div>
+										</div>
+									</div>
+									<div class="vlt-gap-50"></div>
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
+										<!--Testimonial Slider-->
+										<div class="vlt-testimonial-slider">
+											<div class="swiper-container">
+												<div class="swiper-wrapper">
+													<!--Testimonial Item-->
+													<div class="vlt-testimonial-item" style="background: #eb000d url(assets/img/root/cartographer.png) repeat;">
+														<div class="vlt-testimonial-item__avatar"><img src="assets/img/avatar-01.jpg" alt="Damien O'Ryan"></div>
+														<div class="vlt-testimonial-item__content">
+															<p>Day shall form years which rule made first, make a our night life herb midst isn't fish give lights land morning lesser. Said cattle. Green us fish rule third dry his for. Created signs under.</p>
+															<div class="vlt-testimonial-item__meta">
+																<h6>Damien O'Ryan</h6><span>Mountain Inc</span>
+															</div>
+														</div>
+													</div>
+													<!--Testimonial Item-->
+													<div class="vlt-testimonial-item" style="background: #eb000d url(assets/img/root/cartographer.png) repeat;">
+														<div class="vlt-testimonial-item__avatar"><img src="assets/img/avatar-02.jpg" alt="Kien Hester"></div>
+														<div class="vlt-testimonial-item__content">
+															<p>Day shall form years which rule made first, make a our night life herb midst isn't fish give lights land morning lesser. Said cattle. Green us fish rule third dry his for. Created signs under.</p>
+															<div class="vlt-testimonial-item__meta">
+																<h6>Kien Hester</h6><span>CEO Vintage</span>
+															</div>
+														</div>
+													</div>
+													<!--Testimonial Item-->
+													<div class="vlt-testimonial-item" style="background: #eb000d url(assets/img/root/cartographer.png) repeat;">
+														<div class="vlt-testimonial-item__avatar"><img src="assets/img/avatar-03.jpg" alt="Chanelle Reed"></div>
+														<div class="vlt-testimonial-item__content">
+															<p>Day shall form years which rule made first, make a our night life herb midst isn't fish give lights land morning lesser. Said cattle. Green us fish rule third dry his for. Created signs under.</p>
+															<div class="vlt-testimonial-item__meta">
+																<h6>Chanelle Reed</h6><span>Woody Nature</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="vlt-gap-70"></div>
+									<div class="row justify-content-md-between">
+										<div class="col-md-auto col-sm-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+												<!--Partner Logo-->
+												<div class="vlt-partner-logo" style="height:75px;"><img src="assets/img/root/client-1.png" alt="Handmade" style="height:65px;"></div>
+											</div>
+											<div class="vlt-gap-40--sm"></div>
+										</div>
+										<div class="col-md-auto col-sm-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+												<!--Partner Logo-->
+												<div class="vlt-partner-logo" style="height:75px;"><img src="assets/img/root/client-2.png" alt="Mountain" style="height:58px;"></div>
+											</div>
+											<div class="vlt-gap-40--sm"></div>
+										</div>
+										<div class="col-md-auto col-sm-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+												<!--Partner Logo-->
+												<div class="vlt-partner-logo" style="height:75px;"><img src="assets/img/root/client-3.png" alt="Collection" style="height:72px;"></div>
+											</div>
+											<div class="vlt-gap-40--sm"></div>
+										</div>
+										<div class="col-md-auto col-sm-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+												<!--Partner Logo-->
+												<div class="vlt-partner-logo" style="height:75px;"><img src="assets/img/root/client-4.png" alt="Mountainbike" style="height:72px;"></div>
+											</div>
+											<div class="vlt-gap-40--sm"></div>
+										</div>
+										<div class="col-md-auto col-sm-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+												<!--Partner Logo-->
+												<div class="vlt-partner-logo" style="height:75px;"><img src="assets/img/root/client-5.png" alt="Woody" style="height:62px;"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Blog-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Blog" data-brightness="light">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Particles-->
+						<div class="vlt-section__particles">
+							<div class="vlt-particle vlt-custom--1259 vlt-fade-in-right" style="background-image: url(assets/img/root/plus-light-pattern.png); animation-delay: 750ms;"></div>
+							<div class="vlt-particle vlt-custom--2355 vlt-fade-in-left" style="background-image: url(assets/img/root/elipse-light.png); animation-delay: 500ms;"></div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-10 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+										<div class="d-block d-md-flex align-items-center justify-content-between">
+											<h1>My Journal</h1>
+											<div class="vlt-gap-30--sm"></div><a class="vlt-btn vlt-btn--primary" href="#"><span class="vlt-btn__text">View More Posts</span></a>
+										</div>
+									</div>
+									<div class="vlt-gap-50"></div>
+									<div class="row">
+										<div class="col-md-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
+												<!--Blog Post-->
+												<article class="vlt-post">
+													<div class="vlt-post-thumbnail"><img src="assets/img/attachment-08.jpg" alt=""><a class="vlt-post-thumbnail__link" href="#"></a>
+													</div>
+													<div class="vlt-post-content">
+														<header class="vlt-post-header">
+															<div class="vlt-post-meta"><span>Personal</span><span>01 June, 2020</span>
+															</div>
+															<h3 class="vlt-post-title"><a href="#">Lights winged seasons fish abundantly evening.</a></h3>
+														</header>
+														<footer class="vlt-post-footer"><a class="vlt-post__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">Read more</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+													</div>
+												</article>
+											</div>
+											<div class="vlt-gap-40--sm"></div>
+										</div>
+										<div class="col-md-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
+												<!--Blog Post-->
+												<article class="vlt-post">
+													<div class="vlt-post-thumbnail"><img src="assets/img/attachment-09.jpg" alt=""><a class="vlt-post-thumbnail__link" href="#"></a>
+														<div class="badge"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bookmark">
+																<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg></div>
+													</div>
+													<div class="vlt-post-content">
+														<header class="vlt-post-header">
+															<div class="vlt-post-meta"><span>Travel</span><span>01 June, 2020</span>
+															</div>
+															<h3 class="vlt-post-title"><a href="#">Given void great you’re good appear also fifth.</a></h3>
+														</header>
+														<footer class="vlt-post-footer"><a class="vlt-post__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">Read more</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+													</div>
+												</article>
+											</div>
+											<div class="vlt-gap-40--sm"></div>
+										</div>
+										<div class="col-md-4">
+											<!--Animated Block-->
+											<div class="vlt-animated-block" style="animation-delay:300ms; animation-duration:700ms;">
+												<!--Blog Post-->
+												<article class="vlt-post">
+													<div class="vlt-post-thumbnail"><img src="assets/img/attachment-10.jpg" alt=""><a class="vlt-post-thumbnail__link" href="#"></a>
+													</div>
+													<div class="vlt-post-content">
+														<header class="vlt-post-header">
+															<div class="vlt-post-meta"><span>Discuss</span><span>01 June, 2020</span>
+															</div>
+															<h3 class="vlt-post-title"><a href="#">Winged moved stars, fruit creature seed night.</a></h3>
+														</header>
+														<footer class="vlt-post-footer"><a class="vlt-post__link vlt-link-with-arrow" href="#"><span class="vlt-link-with-arrow__text">Read more</span><span class="vlt-link-with-arrow__icon">🡒</span></a></footer>
+													</div>
+												</article>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Contact-->
+			<!--Section-->
+			<div class="vlt-section pp-scrollable" data-anchor="Contact" data-brightness="dark">
+				<div class="vlt-section__vertical-align">
+					<div class="vlt-section__content">
+						<!--Ken Burn Effect-->
+						<div class="vlt-section__ken-burn-background"><img src="assets/img/attachment-05.jpg" alt=""></div>
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-4 offset-lg-1">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:0s; animation-duration:700ms;">
+										<h1 class="has-white-color">Contact</h1>
+										<div class="vlt-gap-20"></div>
+										<p class="has-gray-color">You'll called for yielding male, so lights<br>Stars abundantly, is their.</p>
+										<div class="vlt-gap-50"></div>
+										<div class="has-white-color">
+											<h6 class="vlt-display-1 has-gray-color">Email:</h6>
+											<div class="vlt-gap-5"></div><a href="mailto:mikael.moore@gmail.com">mikael.moore@gmail.com</a>
+										</div>
+										<div class="vlt-gap-30"></div>
+										<div class="has-white-color">
+											<h6 class="vlt-display-1 has-gray-color">Phone:</h6>
+											<div class="vlt-gap-5"></div><a href="tel:+79281012345">+7 (928)-101-23-45</a>
+										</div>
+										<div class="vlt-gap-40"></div><a class="vlt-btn vlt-btn--secondary" href="#"><span class="vlt-btn__text">Get direction</span><span class="vlt-btn__icon vlt-btn__icon--right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+													<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+													<circle cx="12" cy="10" r="3" /></svg></span></a>
+									</div>
+									<div class="vlt-gap-70--sm"></div>
+								</div>
+								<div class="col-lg-6">
+									<!--Animated Block-->
+									<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
+										<h5 class="has-white-color">I am always looking for great collaborators. Let’s message me and make <span class="has-first-color">something together!</span></h5>
+										<div class="vlt-gap-40"></div>
+										<form class="vlt-contact-form" novalidate="novalidate">
+											<div class="vlt-form-row two-col">
+												<div class="vlt-form-group">
+													<label class="has-white-color" for="name">Your name (required)</label>
+													<input type="text" id="name" name="name" required="required" placeholder="Your Name">
+												</div>
+												<div class="vlt-form-group">
+													<label class="has-white-color" for="email">Your email (required)</label>
+													<input type="email" id="email" name="email" required="required" placeholder="Your Email">
+												</div>
+											</div>
+											<div class="vlt-form-row two-col">
+												<div class="vlt-form-group">
+													<label class="has-white-color" for="category">Category (optional)</label>
+													<input type="text" id="category" name="category" placeholder="Category">
+												</div>
+												<div class="vlt-form-group">
+													<label class="has-white-color" for="budget">Choose a Budget (USD)</label>
+													<select id="budget" name="budget">
+														<option value="500-1000">$500 - $1000</option>
+														<option value="1000-10000">$1000 - $10 000</option>
+														<option value="10000+">$10 000 +</option>
+													</select>
+												</div>
+											</div>
+											<div class="vlt-form-group">
+												<label class="has-white-color" for="message">Your Message</label>
+												<textarea name="message" id="message" rows="3" placeholder="Message"></textarea>
+											</div>
+											<div class="message success">Your message is successfully sent...</div>
+											<div class="message danger">Sorry something went wrong!</div>
+											<!--Button-->
+											<button class="vlt-btn vlt-btn--primary"><span class="vlt-btn__text">Contact Me</span><span class="vlt-btn__icon vlt-btn__icon--right"></span></button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Progress Bar-->
+			<ul class="vlt-fullpage-slider-progress-bar">
+				<li data-menuanchor="Home"></li>
+				<li data-menuanchor="Services"></li>
+				<li data-menuanchor="Experience"></li>
+				<li data-menuanchor="Skills"></li>
+				<li data-menuanchor="Portfolio"></li>
+				<li data-menuanchor="Awards"></li>
+				<li data-menuanchor="Testimonials"></li>
+				<li data-menuanchor="Blog"></li>
+				<li data-menuanchor="Contact"></li>
+			</ul>
+			<!--Numbers-->
+			<div class="vlt-fullpage-slider-numbers"></div>
+		</div>
+		<!--Footer-->
+		<footer class="vlt-footer vlt-footer--fixed">
+			<!--Copyright-->
+			<div class="vlt-footer-copyright">
+				<p>&copy; 2020 Copiright.<br>All rights reserved.</p>
+			</div>
+		</footer>
+	</main>
+	<!--Libs-->
+	<script src="assets/vendors/jquery-3.5.1.min.js"></script>
+	<script src="assets/scripts/vlt-plugins.min.js"></script>
+	<script src="assets/scripts/vlt-helpers.js"></script>
+	<script src="assets/scripts/vlt-controllers.min.js"></script>
 </body>
-<!-- Mirrored from themes.pixelwars.org/ikonik/demo-01/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 13 Feb 2021 04:44:35 GMT -->
 
 </html>
